@@ -8,8 +8,8 @@ This structure provides flexibility and accessibility for developers familiar wi
 
 ### Features
 
-- **Multi-Language Support**: Each folder contains implementations in different programming languages, making it easier for developers to choose their preferred language.
-- **API Access**: Each class/method is tailored to provide straightforward access to the MyGES API, simplifying integration and usage.
-- **Modular Design**: The project is structured in a modular way, allowing for easy updates and maintenance of individual language implementations.
+> - **Multi-Language Support**: Each folder contains implementations in different programming languages, making it easier for developers to choose their preferred language.
+> - **API Access**: Each class/method is tailored to provide straightforward access to the MyGES API, simplifying integration and usage.
+> - **Modular Design**: The project is structured in a modular way, allowing for easy updates and maintenance of individual language implementations.
 
 Feel free to explore the different folders and find the implementation that best suits your needs!
