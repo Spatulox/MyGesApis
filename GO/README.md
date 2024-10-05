@@ -27,6 +27,8 @@ The `GESapi` class provides access to the following methods:
 > - QuitProjectGroup(projectRcId int64, projectId int64, projectGroupId int64) (string, error): Allows the user to leave a specific project group identified by its IDs. Returns a JSON string indicating success or failure.
 
 
+__**Example**__
+
 ```go
 user, err := GESLogin("username", "password")
 
