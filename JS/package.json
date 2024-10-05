@@ -1,0 +1,12 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "Minimal version of the Nathanael Demacon's myges unoffical API",
+  "main": "ges-api.js",
+  "keywords": [],
+  "author": "Nathanael Demacon",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
