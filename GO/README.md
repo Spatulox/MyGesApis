@@ -26,5 +26,18 @@ The `GESapi` class provides access to the following methods:
 > - JoinProjectGroup(projectRcId int64, projectId int64, projectGroupId int64) (string, error): Allows the user to join a specific project group identified by its IDs. Returns a JSON string indicating success or failure.
 > - QuitProjectGroup(projectRcId int64, projectId int64, projectGroupId int64) (string, error): Allows the user to leave a specific project group identified by its IDs. Returns a JSON string indicating success or failure.
 
+
+```go
+user, err := GESLogin("username", "password")
+
+// You can now use the methods
+
+result, err := user.GetProfile()
+result2, err2 := user.GetYears()
+// Etc...
+
+```
+
+
 ## Note
 Some of these methods may have bugs or may not work as expected. Please report any issues you encounter.
