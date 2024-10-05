@@ -1,9 +1,9 @@
 # Go Class to Access the MyGes API
 
-The GesAPI project is a JavaScript library that allows interaction with the MyGES API. It is completely redevelopped in GO, based on the JS/Typescript myges-cli version by [quantumsheep](https://github.com/quantumsheep/myges-cli).
+The GesAPI project is a GO library that allows interaction with the MyGES API. It is completely redevelopped in GO, based on the JS/Typescript myges-cli version by [quantumsheep](https://github.com/quantumsheep/myges-cli).
 
 ## Initialization
-Just copy and paste this file into a Go project, wherever you want.
+Just copy and paste the GesApi.go into a Go project, wherever you want.
 
 ## Instantiation of the Class
 
