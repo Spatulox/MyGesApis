@@ -1,6 +1,6 @@
 # Go Class to Access the MyGes API
 
-The GesAPI project is a GO library that allows interaction with the MyGES API. It is completely redevelopped in GO, based on the JS/Typescript myges-cli version by [quantumsheep](https://github.com/quantumsheep/myges-cli).
+The GesAPI project is a GO library that allows interaction with the MyGES API. It's based on the JS/Typescript myges-cli version by [quantumsheep](https://github.com/quantumsheep/myges-cli).
 
 ## Initialization
 Just copy and paste the GesApi.go into a Go project, wherever you want.
@@ -34,9 +34,9 @@ __**Example**__
 user, err := GESLogin("username", "password")
 
 // You can now use the methods
-
+year := "2024-03-02"
 result, err := user.GetProfile()
-result2, err2 := user.GetYears()
+result2, err2 := user.GetYears(year)
 // Etc...
 
 ```
@@ -44,3 +44,16 @@ result2, err2 := user.GetYears()
 
 ## Note
 Some of these methods may have bugs or may not work as expected. Please report any issues you encounter.
+I will only be able to patch any issues until July 2027.
+Don't forget to change the name of the package at the top of the file if needed.
+
+
+
+
+## Plan to be added
+> - NEWS("/me/news"),
+> - TEACHERS("/me/{year}/teachers"),
+> - NEWS_BANNERS("/me/news/banners"),
+> - CLASSES("/me/{year}/classes"),
+> -  STUDENTS("/me/classes/{classeId}/students"), ?
+> -  STUDENT("/me/students/{studentId}"); ?
