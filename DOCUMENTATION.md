@@ -1,3 +1,5 @@
+Vient de la documentation de [SebPautot](https://github.com/SebPautot)
+
 # myges-documentation
 Documentation for the MyGES API
 
