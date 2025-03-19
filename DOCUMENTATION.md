@@ -18,27 +18,52 @@ All endpoints listed require an Autorization header with the value :
 
 bearer {token}
 
-### GET https://api.kordis.fr/me/profile
+## Personnal / Student :
+
+### GET https://api.kordis.fr/me/year
+Get all the start year when you were in the school (years 2024/2025 => give 2024)
+
+### GET https://api.kordis.fr/me/{year}/absences
 
 ### GET https://api.kordis.fr/me/agenda?start={startTime}&end={endTime}
-
 startTime: the start time in milliseconds since the Unix Epoch
-
 endTime : the end time in milliseconds since the Unix Epoch
+
+### GET https://api.kordis.fr/me/{year}/classes
+
+### GET https://api.kordis.fr/me/{year}/courses
+
+### GET https://api.kordis.fr/me/{year}/grades
+
+### GET https://api.kordis.fr/me/{year}/projects
+
+### GET https://api.kordis.fr/me/profile
+
+
+## Global
+
+### GET https://api.kordis.fr/me/news
 
 ### GET https://api.kordis.fr/me/news/banners
 
 ### GET https://api.kordis.fr/me/news?page={page}
-
-### GET https://api.kordis.fr/me/{year}/grades
-
-### GET https://api.kordis.fr/me/{year}/absences
-
-### GET https://api.kordis.fr/me/{year}/teachers
 
 ### GET https://api.kordis.fr/me/{year}/classes
 
 ### GET https://api.kordis.fr/me/classes/{classeId}/students
 
 ### GET https://api.kordis.fr/me/students/{studentId}
+
+### GET https://api.kordis.fr/me/{year}/teachers
+
+
+## Projects
+
+### GET https://api.kordis.fr/me/project/{id}
+
+Join project Group
+### POST https://api.kordis.fr/me/courses/{projectRcId}/projects/{projectId}/groups/{projectGroupId}
+
+Leave project Group
+### DELETE https://api.kordis.fr/me/courses/{projectRcId}/projects/{projectId}/groups/{projectGroupId}
 
