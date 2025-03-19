@@ -23,6 +23,11 @@ The `GESapi` class provides access to the following methods:
 > - GetCourses(year string) (string, error): Fetches the courses associated with the user for a given academic year. Returns a JSON string with course details.
 > - GetProjects(year string) (string, error): Retrieves projects associated with the user for a specific academic year. Returns a JSON string containing project details.
 > - GetProject(id int64) (string, error): Fetches detailed information about a specific project identified by its ID. Returns a JSON string with project information.
+> - GetNews() (string, error): Fetched all your current MyGes News
+> - GetBanners() (string, error): Idk why you want to use that but it exists...
+> - GetNewsPage() (string, error): I know it works, but I never used it, so idk..
+> - GetYearClasses(year string) (string, error): Fetch all the existing classes from a specific year
+> - GetYearTecher(year string) (string, error) : Fetch all the teacher from a specific year
 > - JoinProjectGroup(projectRcId int64, projectId int64, projectGroupId int64) (string, error): Allows the user to join a specific project group identified by its IDs. Returns a JSON string indicating success or failure.
 > - QuitProjectGroup(projectRcId int64, projectId int64, projectGroupId int64) (string, error): Allows the user to leave a specific project group identified by its IDs. Returns a JSON string indicating success or failure.
 
