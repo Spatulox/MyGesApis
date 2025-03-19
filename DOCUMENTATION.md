@@ -18,6 +18,7 @@ All endpoints listed require an Autorization header with the value :
 
 bearer {token}
 
+<br><br>
 ## Personnal / Student :
 
 ### GET https://api.kordis.fr/me/year
@@ -40,6 +41,7 @@ endTime : the end time in milliseconds since the Unix Epoch
 ### GET https://api.kordis.fr/me/profile
 
 
+<br><br>
 ## Global
 
 ### GET https://api.kordis.fr/me/news
@@ -57,6 +59,7 @@ endTime : the end time in milliseconds since the Unix Epoch
 ### GET https://api.kordis.fr/me/{year}/teachers
 
 
+<br><br>
 ## Projects
 
 ### GET https://api.kordis.fr/me/project/{id}
