@@ -1,4 +1,4 @@
-Comes from the [SebPautot](https://github.com/SebPautot)'s documentation, with informations from [this file](https://github.com/quantumsheep/myges-cli/blob/master/src/ges-api.ts) from [quantumsheep](https://github.com/quantumsheep)
+Comes from the [SebPautot](https://github.com/SebPautot)'s documentation, with informations from [this file](https://github.com/quantumsheep/myges-cli/blob/master/src/ges-api.ts) from [quantumsheep myges-cli](https://github.com/quantumsheep)
 
 # myges-documentation
 Documentation for the MyGES API
