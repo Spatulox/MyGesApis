@@ -8,7 +8,7 @@ This structure provides flexibility and accessibility for developers familiar wi
 
 ## Where it comes from
 - Documentation [SebPautot](https://github.com/SebPautot/myges-documentation)
-- Code JS/TS [quantumsheep](https://github.com/quantumsheep/myges-cli)
+- Base Code JS/TS [quantumsheep](https://github.com/quantumsheep/myges-cli)
 
 ### Features
 
