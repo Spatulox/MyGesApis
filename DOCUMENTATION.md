@@ -66,9 +66,11 @@ endTime : the end time in milliseconds since the Unix Epoch
 
 ### GET https://api.kordis.fr/me/project/{id}
 
-Join project Group
+
 ### POST https://api.kordis.fr/me/courses/{projectRcId}/projects/{projectId}/groups/{projectGroupId}
+Join project Group
+<br>
 
-Leave project Group
 ### DELETE https://api.kordis.fr/me/courses/{projectRcId}/projects/{projectId}/groups/{projectGroupId}
-
+Leave project Group
+<br>
