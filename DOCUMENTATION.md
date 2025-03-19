@@ -1,4 +1,4 @@
-Vient de la documentation de [SebPautot](https://github.com/SebPautot)
+Comes from the [SebPautot](https://github.com/SebPautot)'s documentation
 
 # myges-documentation
 Documentation for the MyGES API
