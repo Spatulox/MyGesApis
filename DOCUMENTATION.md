@@ -3,6 +3,8 @@ Vient de la documentation de [SebPautot](https://github.com/SebPautot)
 # myges-documentation
 Documentation for the MyGES API
 
+I only maintain the GO part, some of the endpoint might not be available in the JS part..
+
 ## Authenticate a user and get a token
 GET https://authentication.kordis.fr/oauth/authorize?response_type=token&client_id=skolae-app
 ### Headers
