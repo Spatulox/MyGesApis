@@ -6,6 +6,10 @@
 
 This structure provides flexibility and accessibility for developers familiar with various programming languages, enabling them to integrate MyGES API functionalities seamlessly into their applications.
 
+## Where it comes from
+- Documentation [SebPautot](https://github.com/SebPautot/myges-documentation)
+- Code JS/TS [quantumsheep](https://github.com/quantumsheep/myges-cli)
+
 ### Features
 
 > - **Multi-Language Support**: Each folder contains implementations in different programming languages, making it easier for developers to choose their preferred language.
