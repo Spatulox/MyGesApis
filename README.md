@@ -1,4 +1,4 @@
-Was to lazy so more than half of the text have been AI generated
+Was to lazy so more than half of the text is AI generated
 
 # MyGesApis
 
