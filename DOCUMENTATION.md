@@ -44,7 +44,7 @@ endTime : the end time in milliseconds since the Unix Epoch
 
 
 <br><br>
-## Global
+## Personnal / Global
 
 ### GET https://api.kordis.fr/me/news
 
@@ -62,7 +62,7 @@ endTime : the end time in milliseconds since the Unix Epoch
 
 
 <br><br>
-## Projects
+## Personnal / Projects
 
 ### GET https://api.kordis.fr/me/project/{id}
 
